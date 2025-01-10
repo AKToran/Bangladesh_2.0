@@ -73,8 +73,8 @@ nav>button {
 .vision_of_future {
     margin: 80px 0px;
 }
-
-.vision_of_future>h2 {
+/*? section title */
+.section-title {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -85,8 +85,8 @@ nav>button {
     gap: 24px;
     margin: 30px 0;
 }
-.cards h3{
-    font-size: 24px;
+.cards h3, .news-card h3{
+    font-size: 26px;
     font-weight: 700;
     padding: 10px 0px;
 }
@@ -125,4 +125,27 @@ nav>button {
 }
 .yellow{
     background-color:rgb(255, 194, 57);
+}
+
+/* news card section */
+
+.news-card{
+    display: flex;
+    gap: 30px;
+    padding: 48px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+.news-card h3{
+    margin-top: 15px;
+}
+.news-card > img{
+    border-radius: 25px;
+}
+.news-card button{
+    margin-top: 20px;
+}
+
+#news-card-2{
+    flex-direction: row-reverse;
 }
