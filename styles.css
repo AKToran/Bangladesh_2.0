@@ -6,6 +6,9 @@
     font-family: "Fira Sans", serif;
     background-color: rgb(243, 239, 239);
 }
+button:hover{
+    cursor: pointer;
+}
 
 /* shared styles */
 .bg-1 {
@@ -24,6 +27,20 @@
     color: white;
     font-size: 18px;
     font-weight: 600;
+}
+
+/*? section title */
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.cards h3, .news-card h3{
+    font-size: 26px;
+    font-weight: 700;
+    padding: 10px 0px;
+    color: rgba(14, 14, 14, 0.8);
 }
 
 body {
@@ -73,23 +90,13 @@ nav>button {
 .vision_of_future {
     margin: 80px 0px;
 }
-/*? section title */
-.section-title {
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
 
 .cards {
     display: flex;
     gap: 24px;
     margin: 30px 0;
 }
-.cards h3, .news-card h3{
-    font-size: 26px;
-    font-weight: 700;
-    padding: 10px 0px;
-}
+
 .cards p{
     padding-bottom: 20px;
 }
@@ -148,4 +155,37 @@ nav>button {
 
 #news-card-2{
     flex-direction: row-reverse;
+}
+
+/* donate money section */
+.donate{
+    margin-top: 60px;
+    text-align: center;
+}
+.donate > p{
+    margin: 0 70px;
+}
+.money{
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    padding: 30px;
+}
+.money h1{
+    padding: 40px;
+    border-radius: 14px;
+    border: 1px solid rgba(14, 14, 14, 0.2);
+    font-size: 30px;
+}
+
+.money h1:hover{
+    cursor: pointer;
+    background-color: rgb(198, 228, 214);
+}
+
+.donate input{
+    border: 1px solid rgba(14, 14, 14, 0.2);
+    padding: 20px 270px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
