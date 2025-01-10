@@ -112,7 +112,10 @@ nav>button {
 .card{
     border-radius: 16px;
     padding: 32px;
-    width: 350px;
+}
+
+.card:hover{
+    background-color: rgb(126, 197, 227);
 }
 
 .bg-3 {
@@ -188,4 +191,31 @@ nav>button {
     padding: 20px 270px;
     font-size: 30px;
     margin-bottom: 20px;
+}
+/* newsletter section */
+.newsletter{
+    text-align: center;
+    margin: 70px 0;
+    padding: 50px;
+    border-radius: 24px;
+}
+
+.newsletter input{
+    background-color: white;
+    padding: 10px 200px 10px 10px;
+    border: 1px solid rgba(14, 14, 14, 0.2);
+    margin: 10px 0;
+    font-size: 28px;
+}
+.newsletter button{
+    margin: 10px;
+    margin-left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+#email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
